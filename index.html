@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shaik Haneef | Data Analyst Portfolio</title>
 
+<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- Font Awesome -->
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
+<!-- AOS -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 
+<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
 rel="stylesheet">
 
@@ -23,15 +27,15 @@ padding:0;
 box-sizing:border-box;
 }
 
+html{
+scroll-behavior:smooth;
+}
+
 body{
 font-family:'Inter',sans-serif;
 background:#020617;
 color:white;
 overflow-x:hidden;
-}
-
-html{
-scroll-behavior:smooth;
 }
 
 .gradient-text{
@@ -143,24 +147,18 @@ Passionate Data Analyst and Computer Science Engineer skilled in transforming co
 
 <a href="#projects"
 class="hero-btn bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-2xl font-semibold text-lg">
-
 Explore Projects
-
 </a>
 
 <a href="resume.pdf"
 download
 class="hero-btn bg-emerald-600 hover:bg-emerald-500 px-8 py-4 rounded-2xl font-semibold text-lg">
-
 Download Resume
-
 </a>
 
 <a href="#contact"
 class="hero-btn border border-slate-700 hover:border-blue-500 px-8 py-4 rounded-2xl font-semibold text-lg">
-
 Contact Me
-
 </a>
 
 </div>
@@ -170,24 +168,18 @@ Contact Me
 <a href="https://github.com/haneefsk411-beep"
 target="_blank"
 class="hover:text-white transition">
-
 <i class="fab fa-github"></i>
-
 </a>
 
 <a href="https://linkedin.com/in/shaik-haneef-s411"
 target="_blank"
 class="hover:text-blue-400 transition">
-
 <i class="fab fa-linkedin"></i>
-
 </a>
 
 <a href="mailto:haneefsk411@gmail.com"
 class="hover:text-red-400 transition">
-
 <i class="fas fa-envelope"></i>
-
 </a>
 
 </div>
@@ -267,7 +259,7 @@ Applying predictive analytics and AI concepts for intelligent systems.
 <section id="skills"
 class="py-24 border-t border-slate-800 bg-slate-950/40">
 
-<div class="max-w-6xl mx-auto px-6">
+<div class="max-w-7xl mx-auto px-6">
 
 <div class="text-center mb-16">
 
@@ -277,26 +269,73 @@ Skills & Technologies
 
 </div>
 
-<div class="grid md:grid-cols-4 gap-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-<div class="card-hover bg-slate-900 border border-slate-800 p-8 rounded-3xl text-center">
-<i class="fas fa-chart-bar text-5xl text-yellow-400 mb-5"></i>
-<h3 class="text-2xl font-bold">Power BI</h3>
+<div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8">
+<h3 class="text-2xl font-bold mb-6 text-blue-400">Languages</h3>
+
+<div class="space-y-4">
+<p><i class="fab fa-java text-orange-400 mr-3"></i>Java</p>
+<p><i class="fas fa-terminal text-cyan-400 mr-3"></i>C</p>
+<p><i class="fab fa-python text-yellow-400 mr-3"></i>Python</p>
+<p><i class="fas fa-code text-purple-400 mr-3"></i>C++</p>
+</div>
 </div>
 
-<div class="card-hover bg-slate-900 border border-slate-800 p-8 rounded-3xl text-center">
-<i class="fas fa-table text-5xl text-cyan-400 mb-5"></i>
-<h3 class="text-2xl font-bold">Tableau</h3>
+<div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8">
+<h3 class="text-2xl font-bold mb-6 text-cyan-400">Frameworks</h3>
+
+<div class="space-y-4">
+<p><i class="fab fa-html5 text-orange-500 mr-3"></i>HTML</p>
+<p><i class="fab fa-css3-alt text-blue-500 mr-3"></i>CSS</p>
+<p><i class="fas fa-file-excel text-green-400 mr-3"></i>MS Excel</p>
+</div>
 </div>
 
-<div class="card-hover bg-slate-900 border border-slate-800 p-8 rounded-3xl text-center">
-<i class="fab fa-python text-5xl text-yellow-300 mb-5"></i>
-<h3 class="text-2xl font-bold">Python</h3>
+<div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8">
+<h3 class="text-2xl font-bold mb-6 text-indigo-400">Tools & Platforms</h3>
+
+<div class="space-y-4">
+<p><i class="fas fa-book-open text-orange-400 mr-3"></i>Jupyter Notebook</p>
+<p><i class="fab fa-google text-yellow-400 mr-3"></i>Google Colab</p>
+<p><i class="fas fa-chart-bar text-yellow-500 mr-3"></i>Power BI</p>
+<p><i class="fas fa-table text-cyan-400 mr-3"></i>Tableau</p>
+</div>
 </div>
 
-<div class="card-hover bg-slate-900 border border-slate-800 p-8 rounded-3xl text-center">
-<i class="fas fa-database text-5xl text-green-400 mb-5"></i>
-<h3 class="text-2xl font-bold">SQL</h3>
+<div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8">
+<h3 class="text-2xl font-bold mb-6 text-emerald-400">Core CS Fundamentals</h3>
+
+<div class="space-y-4">
+<p><i class="fas fa-database text-green-400 mr-3"></i>DBMS</p>
+<p><i class="fas fa-desktop text-blue-400 mr-3"></i>Operating Systems</p>
+<p><i class="fas fa-sitemap text-pink-400 mr-3"></i>DSA</p>
+</div>
+</div>
+
+<div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8">
+<h3 class="text-2xl font-bold mb-6 text-pink-400">Soft Skills</h3>
+
+<div class="space-y-4">
+<p><i class="fas fa-lightbulb text-yellow-400 mr-3"></i>Problem Solving</p>
+<p><i class="fas fa-clock text-cyan-400 mr-3"></i>Time Management</p>
+<p><i class="fas fa-crown text-orange-400 mr-3"></i>Leadership</p>
+<p><i class="fas fa-arrows-rotate text-green-400 mr-3"></i>Adaptability</p>
+</div>
+</div>
+
+<div class="card-hover bg-gradient-to-br from-blue-600/20 to-cyan-500/10 border border-blue-500/20 rounded-3xl p-8">
+
+<i class="fas fa-chart-line text-6xl text-blue-400 mb-6"></i>
+
+<h3 class="text-3xl font-bold mb-4">
+Data Analytics Focus
+</h3>
+
+<p class="text-slate-300 leading-relaxed">
+Passionate about transforming raw data into actionable insights through visualization, reporting, machine learning, and business intelligence solutions.
+</p>
+
 </div>
 
 </div>
@@ -315,10 +354,6 @@ class="py-24 border-t border-slate-800">
 <h2 class="text-5xl font-extrabold gradient-text">
 Projects
 </h2>
-
-<p class="text-slate-400 mt-5 text-lg">
-Featured development and analytics projects.
-</p>
 
 </div>
 
@@ -339,9 +374,7 @@ AI-powered travel planner generating intelligent itineraries using APIs and reco
 <a href="https://github.com/haneefsk411-beep/Ai-trip-planner"
 target="_blank"
 class="inline-block mt-6 text-blue-400 font-semibold">
-
 View Project →
-
 </a>
 
 </div>
@@ -361,9 +394,7 @@ Full-stack anime discovery platform built using Spring Boot, Docker, Maven, and 
 <a href="https://github.com/haneefsk411-beep/INT-332-PROJECT"
 target="_blank"
 class="inline-block mt-6 text-pink-400 font-semibold">
-
 View Project →
-
 </a>
 
 </div>
@@ -383,9 +414,7 @@ Machine learning based health monitoring platform using wearable device analytic
 <a href="https://github.com/haneefsk411-beep/Health--guard"
 target="_blank"
 class="inline-block mt-6 text-red-400 font-semibold">
-
 View Project →
-
 </a>
 
 </div>
@@ -409,7 +438,7 @@ Certificates
 
 </div>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+<div class="grid md:grid-cols-3 gap-10">
 
 <div class="card-hover bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center">
 
@@ -422,9 +451,7 @@ Computer Communications
 <a href="https://drive.google.com/file/d/1m0h7nZzkmBE8SDzmazVJrM76DtuR3HYF/view"
 target="_blank"
 class="text-blue-400 font-semibold">
-
 View Certificate →
-
 </a>
 
 </div>
@@ -440,9 +467,7 @@ Introduction to Software
 <a href="https://drive.google.com/file/d/1j8bUAm3lLUFxbMUAm-oFRwKI_MNJRfvn/view"
 target="_blank"
 class="text-cyan-400 font-semibold">
-
 View Certificate →
-
 </a>
 
 </div>
@@ -458,9 +483,7 @@ Fundamental Data Structures
 <a href="https://drive.google.com/file/d/1KZle4QqqKECYJH8LArC6ojMyEvaWMCvs/view"
 target="_blank"
 class="text-indigo-400 font-semibold">
-
 View Certificate →
-
 </a>
 
 </div>
@@ -586,6 +609,8 @@ Data Analyst | Full Stack Developer | AI Enthusiast
 </p>
 
 </footer>
+
+<!-- AOS -->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
